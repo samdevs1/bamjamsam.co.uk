@@ -1,0 +1,132 @@
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+	/************************************************** Nav ******************************************************/
+
+	nav {
+		background-color: rgba(0,0,0,0);
+	}
+
+	.nav > li {
+		padding-bottom: 0px;
+	}
+
+	.navbar-fixed-top .navbar-collapse{
+		background-color: rgba(0,0,0,0);
+
+	}
+
+	.navbar-nav>li>.dropdown-menu {
+    	margin-top: 3px;
+	}
+
+
+	.dropdown:hover .dropdown-menu {
+		margin-left: 0px;
+	}
+
+	/************************************************** Home ******************************************************/
+
+	.hero-image h1 {
+		font-size: 40px;
+		padding-top: 30%;
+	}
+
+	.hero-image p {
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	.service-img {
+		width: 30%;
+	}
+
+	.our-work .icon-wrapper {
+		height:300px;
+		width: 500px;
+		margin-bottom: 30px;
+		padding-top: 1%;
+	}
+
+	.what-we-offer .icon-wrapper {
+		height: 150px;
+		width: 150px;
+		padding-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.what-we-offer .icon-small {
+		display: none;
+	}
+
+	.what-people-say .icon-wrapper {
+		height:300px;
+		width: 500px;
+		margin-bottom: 30px;
+		padding-top: 1%;
+	}
+
+	/************************************************** Banner ******************************************************/
+
+	.banner h1 {
+		font-size: 40px;
+		padding-top: 18%;
+	}
+
+	.banner {
+		height:55%;
+	}
+
+	.banner p {
+		padding-bottom: 0px;
+	}
+
+	/************************************************** About ******************************************************/
+
+	.about-wayworks .icon-wrapper {
+		height: 125px;
+		width: 125px;
+		padding-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+	}
+
+	.about-wayworks .icon-small {
+		display: none;
+	}
+
+	.about-wayworks .button-wrapper {
+		padding-top: 90px;
+	}
+
+	.headshot-wrapper {
+		height: 150px;
+		width: 150px;
+	}
+
+	/************************************************** Services ******************************************************/
+
+	.services-info .icon-wrapper {
+		height:125px;
+		width: 125px;
+		padding-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.services-info .icon-small {
+		display: none;
+	}
+
+	/************************************************** RAC bar light ******************************************************/
+
+	.request-a-callback-bar h3 {
+		font-size: 20px;
+	}
+
+}
